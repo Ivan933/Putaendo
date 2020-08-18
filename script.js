@@ -91,7 +91,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "backgroundColor": "#404040",
    "fontColor": "#FFFFFF",
    "rollOverFontColor": "#FFFFFF",
-   "id": "Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+   "id": "Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
    "selectedBackgroundColor": "#202020",
    "children": [
     {
@@ -427,7 +427,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_F0E8EE76_FD81_EED2_41DB_4CECDBADFE1D_t.jpg",
   "label": "Plaza de Armas",
-  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+  "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
   "frames": [
    {
     "sphere": {
@@ -583,7 +583,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_F0CF443F_FD81_1253_41B0_0D5B63F3F7CE_t.jpg",
   "label": "Calle Chacabuco/Salinas",
-  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+  "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
   "frames": [
    {
     "sphere": {
@@ -690,7 +690,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
      "hfovMax": 130,
      "thumbnailUrl": "media/panorama_F09BE238_FD81_765E_41DD_692A05D67004_t.jpg",
      "label": "Calle Comercio Vista 2",
-     "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+     "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
      "frames": [
       {
        "sphere": {
@@ -760,7 +760,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "areas": [
           {
            "mapColor": "image",
-           "click": "this.startPanoramaWithCamera(this.panorama_F036C8F3_FD81_33D2_41CA_CD65533F81BB, this.camera_19E2DDFA_0273_15D5_4137_5F8CDFD948A0); this.mainPlayList.set('selectedIndex', 3)",
+           "click": "this.startPanoramaWithCamera(this.panorama_F036C8F3_FD81_33D2_41CA_CD65533F81BB, this.camera_1869E2BA_0271_EE55_416E_AFCF8A0D2D4E); this.mainPlayList.set('selectedIndex', 3)",
            "class": "HotspotPanoramaOverlayArea"
           }
          ],
@@ -809,7 +809,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_F036C8F3_FD81_33D2_41CA_CD65533F81BB_t.jpg",
   "label": "Calle Comercio",
-  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+  "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
   "frames": [
    {
     "sphere": {
@@ -858,7 +858,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "areas": [
        {
         "mapColor": "image",
-        "click": "this.startPanoramaWithCamera(this.panorama_F09BE238_FD81_765E_41DD_692A05D67004, this.camera_19EA9E13_0273_165B_4162_B33E3EF71E69); this.mainPlayList.set('selectedIndex', 4)",
+        "click": "this.startPanoramaWithCamera(this.panorama_F09BE238_FD81_765E_41DD_692A05D67004, this.camera_185012D9_0271_EFD7_414D_31F3E1058D9E); this.mainPlayList.set('selectedIndex', 4)",
         "class": "HotspotPanoramaOverlayArea"
        }
       ],
@@ -1033,7 +1033,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
      "hfovMax": 131,
      "thumbnailUrl": "media/panorama_10D83A9C_0121_CB3F_414B_D54F296D0674_t.jpg",
      "label": "Calle Comercio/O'Higgins",
-     "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+     "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
      "frames": [
       {
        "sphere": {
@@ -1063,7 +1063,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "areas": [
           {
            "mapColor": "image",
-           "click": "this.startPanoramaWithCamera(this.panorama_0AF76847_0122_D709_4170_01CE1C8C62AF, this.camera_19E77E07_0273_163B_417E_A81B5F2E1960); this.mainPlayList.set('selectedIndex', 5)",
+           "click": "this.startPanoramaWithCamera(this.panorama_0AF76847_0122_D709_4170_01CE1C8C62AF, this.camera_185762CA_0271_EE35_4168_DB43FC3BB506); this.mainPlayList.set('selectedIndex', 5)",
            "class": "HotspotPanoramaOverlayArea"
           }
          ],
@@ -1096,7 +1096,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          ]
         },
         {
-         "rollOverDisplay": false,
+         "rollOverDisplay": true,
          "maps": [],
          "id": "overlay_1A21252B_02B1_2A4B_4167_33D1AB204F98",
          "class": "HotspotPanoramaOverlay",
@@ -1148,7 +1148,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_0AF76847_0122_D709_4170_01CE1C8C62AF_t.jpg",
   "label": "Calle Comercio/Aspee",
-  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+  "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
   "frames": [
    {
     "sphere": {
@@ -1178,7 +1178,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "areas": [
        {
         "mapColor": "image",
-        "click": "this.startPanoramaWithCamera(this.panorama_10D83A9C_0121_CB3F_414B_D54F296D0674, this.camera_19D1FE1F_0273_164A_415B_36FADED6B8CB); this.mainPlayList.set('selectedIndex', 6)",
+        "click": "this.startPanoramaWithCamera(this.panorama_10D83A9C_0121_CB3F_414B_D54F296D0674, this.camera_185D22E9_0271_EFF7_4173_33A095A76FE0); this.mainPlayList.set('selectedIndex', 6)",
         "class": "HotspotPanoramaOverlayArea"
        }
       ],
@@ -1251,7 +1251,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       ]
      },
      {
-      "rollOverDisplay": false,
+      "rollOverDisplay": true,
       "maps": [],
       "id": "overlay_158A1FD4_0293_75DE_4168_0F44C6770E84",
       "class": "HotspotPanoramaOverlay",
@@ -1372,7 +1372,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A_t.jpg",
   "label": "Parque Cementerio de Carretas",
-  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+  "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
   "frames": [
    {
     "sphere": {
@@ -1482,7 +1482,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_13F18D71_0161_4909_4169_02E1CFF660CD_t.jpg",
   "label": "El Llano",
-  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+  "cardboardMenu": "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
   "frames": [
    {
     "sphere": {
@@ -1783,13 +1783,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "media": "this.video_14170593_0126_B908_417A_E645964470E6",
     "class": "VideoPlayListItem",
     "player": "this.MainViewerVideoPlayer",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_18054DD4_0273_15DD_412E_7EB224854D30, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_18054DD4_0273_15DD_412E_7EB224854D30, 0, this.video_14170593_0126_B908_417A_E645964470E6)"
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_1882028A_0271_EE4A_4184_8F22021933EE, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_1882028A_0271_EE4A_4184_8F22021933EE, 0, this.video_14170593_0126_B908_417A_E645964470E6)"
    }
   ],
-  "id": "playList_18054DD4_0273_15DD_412E_7EB224854D30",
+  "id": "playList_1882028A_0271_EE4A_4184_8F22021933EE",
   "class": "PlayList"
  },
- "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
+ "this.Menu_186232A0_0271_EE76_417B_FA09E4B0A044",
  {
   "duration": 1000,
   "easing": "linear",
@@ -1907,10 +1907,10 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "propagateClick": false,
     "scrollBarVisible": "rollOver",
     "minHeight": 0,
-    "id": "htmlText_uid180EFDDB_0273_15CB_4186_5791180D0ECC",
+    "id": "htmlText_uid18721291_0271_EE56_4160_BCC4024EDD46",
     "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">El ochavo es un recurso arquitect\u00f3nico que cumple la funci\u00f3n de facilitar la visibilidad y el tr\u00e1nsito en los cruces de calles, permitiendo que peatones y conductores dispongan de una mejor visi\u00f3n al llegar al cruce.</SPAN></DIV></div>",
     "data": {
-     "name": "HTMLText42985"
+     "name": "HTMLText43759"
     },
     "borderSize": 0,
     "paddingLeft": 10,
@@ -1932,9 +1932,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "propagateClick": false,
     "horizontalAlign": "center",
     "minHeight": 0,
-    "id": "image_uid180EFDDB_0273_15CB_4186_5791180D0ECC_1",
+    "id": "image_uid18721291_0271_EE56_4160_BCC4024EDD46_1",
     "data": {
-     "name": "Image42986"
+     "name": "Image43760"
     },
     "borderSize": 0,
     "paddingLeft": 0,
@@ -2112,10 +2112,10 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "propagateClick": false,
     "scrollBarVisible": "rollOver",
     "minHeight": 0,
-    "id": "htmlText_uid19F04DDE_0273_15CD_4185_C02FC54B8334",
+    "id": "htmlText_uid187E8297_0271_EE5A_4186_4901FD458115",
     "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">El pilar de esquina tiene por funci\u00f3n soportar el peso de la estructura superior del v\u00e9rtice de las casonas, sin perturbar el tr\u00e1nsito de los peatones por abajo. Tambi\u00e9n serv\u00edan para un aprovechamiento particular del espacio en las esquinas sin sacrificar el \u00e1rea construida de la casa que las ocupaba.</SPAN></DIV></div>",
     "data": {
-     "name": "HTMLText42987"
+     "name": "HTMLText43761"
     },
     "borderSize": 0,
     "paddingLeft": 10,
@@ -2137,9 +2137,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "propagateClick": false,
     "horizontalAlign": "center",
     "minHeight": 0,
-    "id": "image_uid19F04DDE_0273_15CD_4185_C02FC54B8334_1",
+    "id": "image_uid187E8297_0271_EE5A_4186_4901FD458115_1",
     "data": {
-     "name": "Image42988"
+     "name": "Image43762"
     },
     "borderSize": 0,
     "paddingLeft": 0,
@@ -2258,7 +2258,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_19E2DDFA_0273_15D5_4137_5F8CDFD948A0",
+  "id": "camera_1869E2BA_0271_EE55_416E_AFCF8A0D2D4E",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -2292,7 +2292,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_19E77E07_0273_163B_417E_A81B5F2E1960",
+  "id": "camera_185762CA_0271_EE35_4168_DB43FC3BB506",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -2327,7 +2327,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_19EA9E13_0273_165B_4162_B33E3EF71E69",
+  "id": "camera_185012D9_0271_EFD7_414D_31F3E1058D9E",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -2362,7 +2362,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_19D1FE1F_0273_164A_415B_36FADED6B8CB",
+  "id": "camera_185D22E9_0271_EFF7_4173_33A095A76FE0",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -2698,7 +2698,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "paddingTop": 0,
     "shadow": false,
     "maxWidth": 118,
-    "click": "this.setMediaBehaviour(this.playList_18054DD4_0273_15DD_412E_7EB224854D30, 0); this.MainViewerVideoPlayer.play(); this.setComponentVisibility(this.Container_53346047_5A6C_DD58_41B9_B595FF015610, false, 0, null, null, false); this.setComponentVisibility(this.HTMLText_E03422F1_FD81_17EE_41DD_531A608A093E, false, 0, null, null, false)",
+    "click": "this.setMediaBehaviour(this.playList_1882028A_0271_EE4A_4184_8F22021933EE, 0); this.MainViewerVideoPlayer.play(); this.setComponentVisibility(this.Container_53346047_5A6C_DD58_41B9_B595FF015610, false, 0, null, null, false); this.setComponentVisibility(this.HTMLText_E03422F1_FD81_17EE_41DD_531A608A093E, false, 0, null, null, false)",
     "class": "IconButton",
     "maxHeight": 33,
     "propagateClick": false,
@@ -6874,7 +6874,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "bottom": 0,
   "id": "veilPopupPanorama",
   "data": {
-   "name": "UIComponent42989"
+   "name": "UIComponent43763"
   },
   "minHeight": 0,
   "paddingLeft": 0,
@@ -6906,7 +6906,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "bottom": 0,
   "id": "zoomImagePopupPanorama",
   "data": {
-   "name": "ZoomImage42990"
+   "name": "ZoomImage43764"
   },
   "minHeight": 0,
   "paddingLeft": 0,
@@ -6967,7 +6967,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "borderColor": "#000000",
   "shadowColor": "#000000",
   "data": {
-   "name": "CloseButton42991"
+   "name": "CloseButton43765"
   },
   "backgroundOpacity": 0.3,
   "iconColor": "#000000",
