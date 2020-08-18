@@ -91,7 +91,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    "backgroundColor": "#404040",
    "fontColor": "#FFFFFF",
    "rollOverFontColor": "#FFFFFF",
-   "id": "Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+   "id": "Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
    "selectedBackgroundColor": "#202020",
    "children": [
     {
@@ -427,7 +427,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_F0E8EE76_FD81_EED2_41DB_4CECDBADFE1D_t.jpg",
   "label": "Plaza de Armas",
-  "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
   "frames": [
    {
     "sphere": {
@@ -583,7 +583,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_F0CF443F_FD81_1253_41B0_0D5B63F3F7CE_t.jpg",
   "label": "Calle Chacabuco/Salinas",
-  "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
   "frames": [
    {
     "sphere": {
@@ -690,7 +690,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
      "hfovMax": 130,
      "thumbnailUrl": "media/panorama_F09BE238_FD81_765E_41DD_692A05D67004_t.jpg",
      "label": "Calle Comercio Vista 2",
-     "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+     "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
      "frames": [
       {
        "sphere": {
@@ -760,7 +760,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "areas": [
           {
            "mapColor": "image",
-           "click": "this.startPanoramaWithCamera(this.panorama_F036C8F3_FD81_33D2_41CA_CD65533F81BB, this.camera_1530F8F5_02F7_1BDE_4167_6B6E52BD25B2); this.mainPlayList.set('selectedIndex', 3)",
+           "click": "this.startPanoramaWithCamera(this.panorama_F036C8F3_FD81_33D2_41CA_CD65533F81BB, this.camera_19E2DDFA_0273_15D5_4137_5F8CDFD948A0); this.mainPlayList.set('selectedIndex', 3)",
            "class": "HotspotPanoramaOverlayArea"
           }
          ],
@@ -809,7 +809,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_F036C8F3_FD81_33D2_41CA_CD65533F81BB_t.jpg",
   "label": "Calle Comercio",
-  "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
   "frames": [
    {
     "sphere": {
@@ -858,7 +858,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "areas": [
        {
         "mapColor": "image",
-        "click": "this.startPanoramaWithCamera(this.panorama_F09BE238_FD81_765E_41DD_692A05D67004, this.camera_153EF905_02F7_1A3E_4175_D5AACB587D59); this.mainPlayList.set('selectedIndex', 4)",
+        "click": "this.startPanoramaWithCamera(this.panorama_F09BE238_FD81_765E_41DD_692A05D67004, this.camera_19EA9E13_0273_165B_4162_B33E3EF71E69); this.mainPlayList.set('selectedIndex', 4)",
         "class": "HotspotPanoramaOverlayArea"
        }
       ],
@@ -1033,7 +1033,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
      "hfovMax": 131,
      "thumbnailUrl": "media/panorama_10D83A9C_0121_CB3F_414B_D54F296D0674_t.jpg",
      "label": "Calle Comercio/O'Higgins",
-     "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+     "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
      "frames": [
       {
        "sphere": {
@@ -1063,7 +1063,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
          "areas": [
           {
            "mapColor": "image",
-           "click": "this.startPanoramaWithCamera(this.panorama_0AF76847_0122_D709_4170_01CE1C8C62AF, this.camera_15347905_02F7_1A3E_4170_05B17C9DBEE0); this.mainPlayList.set('selectedIndex', 5)",
+           "click": "this.startPanoramaWithCamera(this.panorama_0AF76847_0122_D709_4170_01CE1C8C62AF, this.camera_19E77E07_0273_163B_417E_A81B5F2E1960); this.mainPlayList.set('selectedIndex', 5)",
            "class": "HotspotPanoramaOverlayArea"
           }
          ],
@@ -1094,6 +1094,42 @@ TDV.PlayerAPI.defineScript({ "definitions": [
            "pitch": -11.37
           }
          ]
+        },
+        {
+         "rollOverDisplay": false,
+         "maps": [],
+         "id": "overlay_1A21252B_02B1_2A4B_4167_33D1AB204F98",
+         "class": "HotspotPanoramaOverlay",
+         "areas": [
+          {
+           "mapColor": "image",
+           "click": "this.showWindow(this.window_1A6F643F_02B1_2A4B_4165_ADDCAEA280A5, null, false)",
+           "class": "HotspotPanoramaOverlayArea"
+          }
+         ],
+         "data": {
+          "label": "Image"
+         },
+         "useHandCursor": true,
+         "items": [
+          {
+           "hfov": 5.2,
+           "image": {
+            "levels": [
+             {
+              "height": 100,
+              "width": 100,
+              "url": "media/panorama_10D83A9C_0121_CB3F_414B_D54F296D0674_0_HS_1_0.png",
+              "class": "ImageResourceLevel"
+             }
+            ],
+            "class": "ImageResource"
+           },
+           "yaw": 106.42,
+           "class": "HotspotPanoramaOverlayImage",
+           "pitch": -3.2
+          }
+         ]
         }
        ],
        "class": "SphericPanoramaFrame"
@@ -1112,7 +1148,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_0AF76847_0122_D709_4170_01CE1C8C62AF_t.jpg",
   "label": "Calle Comercio/Aspee",
-  "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
   "frames": [
    {
     "sphere": {
@@ -1142,7 +1178,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
       "areas": [
        {
         "mapColor": "image",
-        "click": "this.startPanoramaWithCamera(this.panorama_10D83A9C_0121_CB3F_414B_D54F296D0674, this.camera_15279915_02F7_1A5F_415C_1FFA7DB5962A); this.mainPlayList.set('selectedIndex', 6)",
+        "click": "this.startPanoramaWithCamera(this.panorama_10D83A9C_0121_CB3F_414B_D54F296D0674, this.camera_19D1FE1F_0273_164A_415B_36FADED6B8CB); this.mainPlayList.set('selectedIndex', 6)",
         "class": "HotspotPanoramaOverlayArea"
        }
       ],
@@ -1211,6 +1247,42 @@ TDV.PlayerAPI.defineScript({ "definitions": [
         "yaw": -121.46,
         "class": "HotspotPanoramaOverlayImage",
         "pitch": -15.21
+       }
+      ]
+     },
+     {
+      "rollOverDisplay": false,
+      "maps": [],
+      "id": "overlay_158A1FD4_0293_75DE_4168_0F44C6770E84",
+      "class": "HotspotPanoramaOverlay",
+      "areas": [
+       {
+        "mapColor": "image",
+        "click": "this.showWindow(this.window_1A2201D7_0291_2DDA_4171_B3BD567FE6A6, null, false)",
+        "class": "HotspotPanoramaOverlayArea"
+       }
+      ],
+      "data": {
+       "label": "Image"
+      },
+      "useHandCursor": true,
+      "items": [
+       {
+        "hfov": 5.18,
+        "image": {
+         "levels": [
+          {
+           "height": 100,
+           "width": 100,
+           "url": "media/panorama_0AF76847_0122_D709_4170_01CE1C8C62AF_0_HS_2_0.png",
+           "class": "ImageResourceLevel"
+          }
+         ],
+         "class": "ImageResource"
+        },
+        "yaw": -83.5,
+        "class": "HotspotPanoramaOverlayImage",
+        "pitch": 5.72
        }
       ]
      }
@@ -1300,7 +1372,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A_t.jpg",
   "label": "Parque Cementerio de Carretas",
-  "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
   "frames": [
    {
     "sphere": {
@@ -1410,7 +1482,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "hfovMax": 130,
   "thumbnailUrl": "media/panorama_13F18D71_0161_4909_4169_02E1CFF660CD_t.jpg",
   "label": "El Llano",
-  "cardboardMenu": "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+  "cardboardMenu": "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
   "frames": [
    {
     "sphere": {
@@ -1525,10 +1597,11 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "class": "PanoramaPlayListItem"
    },
    {
-    "begin": "this.setEndToItemIndex(this.mainPlayList, 7, 8)",
+    "begin": "this.setEndToItemIndex(this.mainPlayList, 7, 8); this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, true, -1, this.effect_19B7E294_026F_2E5E_4170_394D743DEEC0, 'showEffect', false)",
     "media": "this.panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A",
-    "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A_camera",
+    "player": "this.MainViewerPanoramaPlayer",
+    "end": "this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, -1, this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20, 'hideEffect', false); this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, -1, this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20, 'hideEffect', false)",
     "class": "PanoramaPlayListItem"
    },
    {
@@ -1597,10 +1670,11 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "class": "PanoramaPlayListItem"
    },
    {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_CD3A365F_C284_BA7C_41C6_2F541D184CA9_playlist, 7, 8)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_CD3A365F_C284_BA7C_41C6_2F541D184CA9_playlist, 7, 8); this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, true, -1, this.effect_19B7E294_026F_2E5E_4170_394D743DEEC0, 'showEffect', false)",
     "media": "this.panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A",
-    "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A_camera",
+    "player": "this.MainViewerPanoramaPlayer",
+    "end": "this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, -1, this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20, 'hideEffect', false); this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, -1, this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20, 'hideEffect', false)",
     "class": "PanoramaPlayListItem"
    },
    {
@@ -1668,10 +1742,11 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "class": "PanoramaPlayListItem"
    },
    {
-    "begin": "this.setEndToItemIndex(this.ThumbnailList_178E9A94_02BF_1E5E_4161_F5F6F28B41B0_playlist, 7, 8)",
+    "begin": "this.setEndToItemIndex(this.ThumbnailList_178E9A94_02BF_1E5E_4161_F5F6F28B41B0_playlist, 7, 8); this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, true, -1, this.effect_19B7E294_026F_2E5E_4170_394D743DEEC0, 'showEffect', false)",
     "media": "this.panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A",
-    "player": "this.MainViewerPanoramaPlayer",
     "camera": "this.panorama_108CF7FC_0126_B8FF_4174_5F61AF785D9A_camera",
+    "player": "this.MainViewerPanoramaPlayer",
+    "end": "this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, -1, this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20, 'hideEffect', false); this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, -1, this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20, 'hideEffect', false)",
     "class": "PanoramaPlayListItem"
    },
    {
@@ -1708,13 +1783,13 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "media": "this.video_14170593_0126_B908_417A_E645964470E6",
     "class": "VideoPlayListItem",
     "player": "this.MainViewerVideoPlayer",
-    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_15D6C8D6_02F7_1BDA_417A_1E3034489021, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_15D6C8D6_02F7_1BDA_417A_1E3034489021, 0, this.video_14170593_0126_B908_417A_E645964470E6)"
+    "start": "this.MainViewerVideoPlayer.set('displayPlaybackBar', true); this.changeBackgroundWhilePlay(this.playList_18054DD4_0273_15DD_412E_7EB224854D30, 0, '#000000'); this.pauseGlobalAudiosWhilePlayItem(this.playList_18054DD4_0273_15DD_412E_7EB224854D30, 0, this.video_14170593_0126_B908_417A_E645964470E6)"
    }
   ],
-  "id": "playList_15D6C8D6_02F7_1BDA_417A_1E3034489021",
+  "id": "playList_18054DD4_0273_15DD_412E_7EB224854D30",
   "class": "PlayList"
  },
- "this.Menu_15CA18E6_02F7_1BFD_4150_950B0DD99C59",
+ "this.Menu_19F89DE6_0273_15FD_417F_76B0FEA07E72",
  {
   "duration": 1000,
   "easing": "linear",
@@ -1733,9 +1808,425 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "id": "effect_1505B9C3_0291_1A3B_4176_91AC933F53E5",
   "class": "FadeOutEffect"
  },
+ {
+  "duration": 1000,
+  "easing": "linear",
+  "id": "effect_18FC46C0_0291_1636_4178_D42A4CC7C980",
+  "class": "FadeOutEffect"
+ },
  "this.popup_E32CA1CA_FD81_123D_41DC_2CF0FC0FCFC6",
  "this.popup_E05ED7A7_FDBF_1E73_41DE_819DE3CA0066",
  "this.popup_DFF12E66_FD83_6EF2_41E6_61E07C97C794",
+ {
+  "shadowOpacity": 0.5,
+  "bodyPaddingTop": 5,
+  "headerBackgroundColor": [
+   "#DDDDDD",
+   "#EEEEEE",
+   "#FFFFFF"
+  ],
+  "paddingRight": 0,
+  "layout": "vertical",
+  "backgroundColor": [],
+  "modal": true,
+  "overflow": "scroll",
+  "titleFontFamily": "Georgia",
+  "paddingBottom": 0,
+  "verticalAlign": "middle",
+  "footerBackgroundColor": [
+   "#FFFFFF",
+   "#EEEEEE",
+   "#DDDDDD"
+  ],
+  "bodyBackgroundColorDirection": "vertical",
+  "closeButtonPressedBackgroundColorRatios": [
+   0
+  ],
+  "headerBackgroundColorRatios": [
+   0,
+   0.1,
+   1
+  ],
+  "title": "OCHAVO",
+  "titleFontWeight": "bold",
+  "gap": 8,
+  "backgroundColorRatios": [],
+  "scrollBarOpacity": 0.5,
+  "bodyBorderColor": "#000000",
+  "closeButtonIconLineWidth": 2,
+  "titlePaddingBottom": 5,
+  "scrollBarWidth": 10,
+  "shadowBlurRadius": 6,
+  "horizontalAlign": "center",
+  "hideEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeOutEffect"
+  },
+  "headerBackgroundColorDirection": "horizontal",
+  "closeButtonIconColor": "#000000",
+  "minHeight": 20,
+  "creationPolicy": "delayed",
+  "closeButtonBackgroundColorRatios": [],
+  "shadowSpread": 1,
+  "paddingLeft": 0,
+  "shadowColor": "#000000",
+  "showEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeInEffect"
+  },
+  "titleFontSize": 14,
+  "backgroundOpacity": 1,
+  "bodyPaddingRight": 5,
+  "veilColorRatios": [
+   0,
+   1
+  ],
+  "titleFontStyle": "normal",
+  "titleTextDecoration": "none",
+  "minWidth": 20,
+  "closeButtonRollOverBackgroundColor": [
+   "#C13535"
+  ],
+  "titlePaddingLeft": 5,
+  "footerHeight": 5,
+  "children": [
+   {
+    "paddingRight": 10,
+    "width": "100%",
+    "paddingBottom": 10,
+    "height": "36%",
+    "scrollBarColor": "#000000",
+    "scrollBarWidth": 10,
+    "paddingTop": 10,
+    "shadow": false,
+    "scrollBarMargin": 2,
+    "class": "HTMLText",
+    "scrollBarOpacity": 0.5,
+    "propagateClick": false,
+    "scrollBarVisible": "rollOver",
+    "minHeight": 0,
+    "id": "htmlText_uid180EFDDB_0273_15CB_4186_5791180D0ECC",
+    "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">El ochavo es un recurso arquitect\u00f3nico que cumple la funci\u00f3n de facilitar la visibilidad y el tr\u00e1nsito en los cruces de calles, permitiendo que peatones y conductores dispongan de una mejor visi\u00f3n al llegar al cruce.</SPAN></DIV></div>",
+    "data": {
+     "name": "HTMLText42985"
+    },
+    "borderSize": 0,
+    "paddingLeft": 10,
+    "backgroundOpacity": 0,
+    "borderRadius": 0,
+    "minWidth": 0
+   },
+   {
+    "paddingRight": 0,
+    "width": "100%",
+    "paddingBottom": 0,
+    "height": "63%",
+    "verticalAlign": "middle",
+    "url": "media/photo_1A87F0AB_02B1_6A4A_417E_D1B3DD28F58C.PNG",
+    "paddingTop": 0,
+    "shadow": false,
+    "scaleMode": "fit_inside",
+    "class": "Image",
+    "propagateClick": false,
+    "horizontalAlign": "center",
+    "minHeight": 0,
+    "id": "image_uid180EFDDB_0273_15CB_4186_5791180D0ECC_1",
+    "data": {
+     "name": "Image42986"
+    },
+    "borderSize": 0,
+    "paddingLeft": 0,
+    "backgroundOpacity": 0,
+    "borderRadius": 0,
+    "minWidth": 0
+   }
+  ],
+  "closeButtonPressedIconColor": "#FFFFFF",
+  "footerBackgroundColorRatios": [
+   0,
+   0.9,
+   1
+  ],
+  "closeButtonBorderRadius": 11,
+  "bodyBorderSize": 0,
+  "bodyPaddingLeft": 5,
+  "headerBorderColor": "#000000",
+  "width": 400,
+  "shadowHorizontalLength": 3,
+  "height": 400,
+  "scrollBarColor": "#000000",
+  "bodyBackgroundColor": [
+   "#FFFFFF",
+   "#DDDDDD",
+   "#FFFFFF"
+  ],
+  "titlePaddingTop": 5,
+  "paddingTop": 0,
+  "backgroundColorDirection": "vertical",
+  "footerBackgroundColorDirection": "vertical",
+  "closeButtonIconHeight": 12,
+  "shadow": true,
+  "veilColor": [
+   "#000000",
+   "#000000"
+  ],
+  "headerPaddingLeft": 10,
+  "headerPaddingTop": 10,
+  "veilOpacity": 0.4,
+  "headerBorderSize": 0,
+  "scrollBarMargin": 2,
+  "class": "Window",
+  "shadowVerticalLength": 0,
+  "headerPaddingBottom": 10,
+  "headerBackgroundOpacity": 1,
+  "propagateClick": false,
+  "contentOpaque": false,
+  "closeButtonRollOverBackgroundColorRatios": [
+   0
+  ],
+  "scrollBarVisible": "rollOver",
+  "headerPaddingRight": 10,
+  "bodyPaddingBottom": 5,
+  "id": "window_1A2201D7_0291_2DDA_4171_B3BD567FE6A6",
+  "bodyBackgroundColorRatios": [
+   0,
+   0.5,
+   1
+  ],
+  "veilShowEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeInEffect"
+  },
+  "bodyBackgroundOpacity": 1,
+  "borderSize": 0,
+  "titleFontColor": "#000000",
+  "closeButtonRollOverIconColor": "#FFFFFF",
+  "closeButtonPressedBackgroundColor": [
+   "#3A1D1F"
+  ],
+  "data": {
+   "name": "Window30241"
+  },
+  "closeButtonIconWidth": 12,
+  "veilHideEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeOutEffect"
+  },
+  "titlePaddingRight": 5,
+  "headerVerticalAlign": "middle",
+  "borderRadius": 5,
+  "closeButtonBackgroundColor": [],
+  "veilColorDirection": "horizontal"
+ },
+ {
+  "shadowOpacity": 0.5,
+  "bodyPaddingTop": 5,
+  "headerBackgroundColor": [
+   "#DDDDDD",
+   "#EEEEEE",
+   "#FFFFFF"
+  ],
+  "paddingRight": 0,
+  "layout": "vertical",
+  "backgroundColor": [],
+  "modal": true,
+  "overflow": "scroll",
+  "titleFontFamily": "Georgia",
+  "paddingBottom": 0,
+  "verticalAlign": "middle",
+  "footerBackgroundColor": [
+   "#FFFFFF",
+   "#EEEEEE",
+   "#DDDDDD"
+  ],
+  "bodyBackgroundColorDirection": "vertical",
+  "closeButtonPressedBackgroundColorRatios": [
+   0
+  ],
+  "headerBackgroundColorRatios": [
+   0,
+   0.1,
+   1
+  ],
+  "title": "PILAR DE ESQUINA",
+  "titleFontWeight": "bold",
+  "gap": 10,
+  "backgroundColorRatios": [],
+  "scrollBarOpacity": 0.5,
+  "bodyBorderColor": "#000000",
+  "closeButtonIconLineWidth": 2,
+  "titlePaddingBottom": 5,
+  "scrollBarWidth": 10,
+  "shadowBlurRadius": 6,
+  "horizontalAlign": "center",
+  "hideEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeOutEffect"
+  },
+  "headerBackgroundColorDirection": "horizontal",
+  "closeButtonIconColor": "#000000",
+  "minHeight": 20,
+  "creationPolicy": "delayed",
+  "closeButtonBackgroundColorRatios": [],
+  "shadowSpread": 1,
+  "paddingLeft": 0,
+  "shadowColor": "#000000",
+  "showEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeInEffect"
+  },
+  "titleFontSize": 14,
+  "backgroundOpacity": 1,
+  "bodyPaddingRight": 5,
+  "veilColorRatios": [
+   0,
+   1
+  ],
+  "titleFontStyle": "normal",
+  "titleTextDecoration": "none",
+  "minWidth": 20,
+  "closeButtonRollOverBackgroundColor": [
+   "#C13535"
+  ],
+  "titlePaddingLeft": 5,
+  "footerHeight": 5,
+  "children": [
+   {
+    "paddingRight": 10,
+    "width": "100%",
+    "paddingBottom": 10,
+    "height": "34%",
+    "scrollBarColor": "#000000",
+    "scrollBarWidth": 10,
+    "paddingTop": 10,
+    "shadow": false,
+    "scrollBarMargin": 2,
+    "class": "HTMLText",
+    "scrollBarOpacity": 0.5,
+    "propagateClick": false,
+    "scrollBarVisible": "rollOver",
+    "minHeight": 0,
+    "id": "htmlText_uid19F04DDE_0273_15CD_4185_C02FC54B8334",
+    "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">El pilar de esquina tiene por funci\u00f3n soportar el peso de la estructura superior del v\u00e9rtice de las casonas, sin perturbar el tr\u00e1nsito de los peatones por abajo. Tambi\u00e9n serv\u00edan para un aprovechamiento particular del espacio en las esquinas sin sacrificar el \u00e1rea construida de la casa que las ocupaba.</SPAN></DIV></div>",
+    "data": {
+     "name": "HTMLText42987"
+    },
+    "borderSize": 0,
+    "paddingLeft": 10,
+    "backgroundOpacity": 0,
+    "borderRadius": 0,
+    "minWidth": 0
+   },
+   {
+    "paddingRight": 0,
+    "width": "100%",
+    "paddingBottom": 0,
+    "height": "65%",
+    "verticalAlign": "middle",
+    "url": "media/photo_1B463D64_02B7_1AFD_416E_3DEB1A039EFC.jpg",
+    "paddingTop": 0,
+    "shadow": false,
+    "scaleMode": "fit_inside",
+    "class": "Image",
+    "propagateClick": false,
+    "horizontalAlign": "center",
+    "minHeight": 0,
+    "id": "image_uid19F04DDE_0273_15CD_4185_C02FC54B8334_1",
+    "data": {
+     "name": "Image42988"
+    },
+    "borderSize": 0,
+    "paddingLeft": 0,
+    "backgroundOpacity": 0,
+    "borderRadius": 0,
+    "minWidth": 0
+   }
+  ],
+  "closeButtonPressedIconColor": "#FFFFFF",
+  "footerBackgroundColorRatios": [
+   0,
+   0.9,
+   1
+  ],
+  "closeButtonBorderRadius": 11,
+  "bodyBorderSize": 0,
+  "bodyPaddingLeft": 5,
+  "headerBorderColor": "#000000",
+  "width": 400,
+  "shadowHorizontalLength": 3,
+  "height": 400,
+  "scrollBarColor": "#000000",
+  "bodyBackgroundColor": [
+   "#FFFFFF",
+   "#DDDDDD",
+   "#FFFFFF"
+  ],
+  "titlePaddingTop": 5,
+  "paddingTop": 0,
+  "backgroundColorDirection": "vertical",
+  "footerBackgroundColorDirection": "vertical",
+  "closeButtonIconHeight": 12,
+  "shadow": true,
+  "veilColor": [
+   "#000000",
+   "#000000"
+  ],
+  "headerPaddingLeft": 10,
+  "headerPaddingTop": 10,
+  "veilOpacity": 0.4,
+  "headerBorderSize": 0,
+  "scrollBarMargin": 2,
+  "class": "Window",
+  "shadowVerticalLength": 0,
+  "headerPaddingBottom": 10,
+  "headerBackgroundOpacity": 1,
+  "propagateClick": false,
+  "contentOpaque": false,
+  "closeButtonRollOverBackgroundColorRatios": [
+   0
+  ],
+  "scrollBarVisible": "rollOver",
+  "headerPaddingRight": 10,
+  "bodyPaddingBottom": 5,
+  "id": "window_1A6F643F_02B1_2A4B_4165_ADDCAEA280A5",
+  "bodyBackgroundColorRatios": [
+   0,
+   0.5,
+   1
+  ],
+  "veilShowEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeInEffect"
+  },
+  "bodyBackgroundOpacity": 1,
+  "borderSize": 0,
+  "titleFontColor": "#000000",
+  "closeButtonRollOverIconColor": "#FFFFFF",
+  "closeButtonPressedBackgroundColor": [
+   "#3A1D1F"
+  ],
+  "data": {
+   "name": "Window34181"
+  },
+  "closeButtonIconWidth": 12,
+  "veilHideEffect": {
+   "duration": 500,
+   "easing": "cubic_in_out",
+   "class": "FadeOutEffect"
+  },
+  "titlePaddingRight": 5,
+  "headerVerticalAlign": "middle",
+  "borderRadius": 5,
+  "closeButtonBackgroundColor": [],
+  "veilColorDirection": "horizontal"
+ },
  {
   "initialPosition": {
    "hfov": 127,
@@ -1767,7 +2258,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_1530F8F5_02F7_1BDE_4167_6B6E52BD25B2",
+  "id": "camera_19E2DDFA_0273_15D5_4137_5F8CDFD948A0",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -1801,7 +2292,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_15347905_02F7_1A3E_4170_05B17C9DBEE0",
+  "id": "camera_19E77E07_0273_163B_417E_A81B5F2E1960",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -1836,7 +2327,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_153EF905_02F7_1A3E_4175_D5AACB587D59",
+  "id": "camera_19EA9E13_0273_165B_4162_B33E3EF71E69",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -1871,7 +2362,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
    ],
    "class": "PanoramaCameraSequence"
   },
-  "id": "camera_15279915_02F7_1A5F_415C_1FFA7DB5962A",
+  "id": "camera_19D1FE1F_0273_164A_415B_36FADED6B8CB",
   "automaticZoomSpeed": 10,
   "class": "PanoramaCamera"
  },
@@ -1899,14 +2390,66 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "id": "effect_104AB582_0291_EA3A_416D_830D066B83F2",
   "class": "FadeOutEffect"
  },
+ {
+  "duration": 1000,
+  "easing": "cubic_in_out",
+  "id": "effect_19B7E294_026F_2E5E_4170_394D743DEEC0",
+  "class": "FadeInEffect"
+ },
+ {
+  "duration": 1000,
+  "easing": "cubic_in_out",
+  "id": "effect_19B7C294_026F_2E5E_417C_63F5917BAE20",
+  "class": "FadeOutEffect"
+ },
  "this.effect_DD326BD3_FD83_35D2_41C9_B0FBCC02FDA6",
  "this.effect_DD321BD3_FD83_35D2_41BB_35B698BEFCCD",
  "this.effect_104AA582_0291_EA3A_4182_D07C40B73749",
  "this.effect_104AB582_0291_EA3A_416D_830D066B83F2",
+ "this.effect_19B7E294_026F_2E5E_4170_394D743DEEC0",
+ "this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20",
  "this.effect_DD326BD3_FD83_35D2_41C9_B0FBCC02FDA6",
  "this.effect_DD321BD3_FD83_35D2_41BB_35B698BEFCCD",
  "this.effect_104AA582_0291_EA3A_4182_D07C40B73749",
- "this.effect_104AB582_0291_EA3A_416D_830D066B83F2"
+ "this.effect_104AB582_0291_EA3A_416D_830D066B83F2",
+ "this.effect_19B7E294_026F_2E5E_4170_394D743DEEC0",
+ "this.effect_19B7C294_026F_2E5E_417C_63F5917BAE20",
+ {
+  "image": {
+   "levels": [
+    {
+     "url": "media/photo_1A87F0AB_02B1_6A4A_417E_D1B3DD28F58C.PNG",
+     "class": "ImageResourceLevel"
+    }
+   ],
+   "class": "ImageResource"
+  },
+  "duration": 5000,
+  "thumbnailUrl": "media/photo_1A87F0AB_02B1_6A4A_417E_D1B3DD28F58C_t.png",
+  "label": "ochavo-gigapixel-scale-2_00x",
+  "width": 604,
+  "id": "photo_1A87F0AB_02B1_6A4A_417E_D1B3DD28F58C",
+  "height": 404,
+  "class": "Photo"
+ },
+ {
+  "image": {
+   "levels": [
+    {
+     "url": "media/photo_1B463D64_02B7_1AFD_416E_3DEB1A039EFC.jpg",
+     "class": "ImageResourceLevel"
+    }
+   ],
+   "class": "ImageResource"
+  },
+  "duration": 5000,
+  "thumbnailUrl": "media/photo_1B463D64_02B7_1AFD_416E_3DEB1A039EFC_t.jpg",
+  "label": "29804074776_3f176df8f3_b",
+  "width": 1024,
+  "id": "photo_1B463D64_02B7_1AFD_416E_3DEB1A039EFC",
+  "height": 768,
+  "class": "Photo"
+ }
 ], "children": [
  {
   "toolTipPaddingLeft": 12,
@@ -2084,56 +2627,33 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "borderRadius": 0,
   "children": [
    {
-    "toolTipPaddingLeft": 12,
-    "toolTipTextShadowOpacity": 0,
-    "toolTipBorderRadius": 0,
     "paddingRight": 0,
     "rollOverIconURL": "skin/IconButton_36ED0B5A_3D3C_4752_41BA_FDC945E2A5D3_rollover.png",
-    "toolTipFontColor": "#FFFFFF",
-    "toolTipBorderSize": 0,
     "iconURL": "skin/IconButton_36ED0B5A_3D3C_4752_41BA_FDC945E2A5D3.png",
     "width": 82,
     "paddingBottom": 0,
     "height": 33,
     "mode": "push",
-    "toolTipDisplayTime": 600,
-    "toolTipTextShadowBlurRadius": 3,
-    "toolTipBorderColor": "#767676",
     "verticalAlign": "middle",
     "paddingTop": 0,
-    "toolTipShadowOpacity": 0,
-    "toolTipFontSize": 17,
-    "maxHeight": 33,
+    "shadow": false,
     "maxWidth": 82,
     "click": "this.setComponentVisibility(this.Container_55273B39_437C_40D1_41B7_C9815CF1926F, true, 0, null, null, false); this.setComponentVisibility(this.Container_53346047_5A6C_DD58_41B9_B595FF015610, false, 0, null, null, false); this.setComponentVisibility(this.HTMLText_E03422F1_FD81_17EE_41DD_531A608A093E, false, 0, null, null, false)",
-    "toolTipFontStyle": "normal",
-    "toolTipShadowBlurRadius": 3,
     "class": "IconButton",
-    "toolTip": "xa",
-    "toolTipShadowSpread": 0,
-    "toolTipPaddingRight": 12,
+    "maxHeight": 33,
     "propagateClick": false,
     "cursor": "hand",
-    "shadow": false,
-    "toolTipShadowColor": "#333333",
     "horizontalAlign": "center",
     "minHeight": 1,
-    "toolTipTextShadowColor": "#000000",
     "id": "IconButton_36ED0B5A_3D3C_4752_41BA_FDC945E2A5D3",
-    "toolTipOpacity": 0.7,
-    "toolTipFontWeight": "normal",
     "data": {
      "name": "button Ubicaci\u00f3n"
     },
     "borderSize": 0,
     "paddingLeft": 0,
-    "toolTipFontFamily": "Georgia",
     "transparencyActive": true,
     "backgroundOpacity": 0,
-    "toolTipPaddingTop": 10,
-    "toolTipPaddingBottom": 10,
     "borderRadius": 0,
-    "toolTipBackgroundColor": "#000000",
     "minWidth": 1
    },
    {
@@ -2178,7 +2698,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
     "paddingTop": 0,
     "shadow": false,
     "maxWidth": 118,
-    "click": "this.setMediaBehaviour(this.playList_15D6C8D6_02F7_1BDA_417A_1E3034489021, 0); this.MainViewerVideoPlayer.play(); this.setComponentVisibility(this.Container_53346047_5A6C_DD58_41B9_B595FF015610, false, 0, null, null, false); this.setComponentVisibility(this.HTMLText_E03422F1_FD81_17EE_41DD_531A608A093E, false, 0, null, null, false)",
+    "click": "this.setMediaBehaviour(this.playList_18054DD4_0273_15DD_412E_7EB224854D30, 0); this.MainViewerVideoPlayer.play(); this.setComponentVisibility(this.Container_53346047_5A6C_DD58_41B9_B595FF015610, false, 0, null, null, false); this.setComponentVisibility(this.HTMLText_E03422F1_FD81_17EE_41DD_531A608A093E, false, 0, null, null, false)",
     "class": "IconButton",
     "maxHeight": 33,
     "propagateClick": false,
@@ -2414,9 +2934,9 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   ],
   "paddingRight": 0,
   "layout": "absolute",
-  "width": 1018.6,
+  "width": 1207.4,
   "paddingBottom": 0,
-  "height": 423.2,
+  "height": 520,
   "overflow": "scroll",
   "scrollBarColor": "#000000",
   "verticalAlign": "top",
@@ -6306,6 +6826,36 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "itemThumbnailShadowOpacity": 0.8
  },
  {
+  "paddingRight": 20,
+  "width": "47.724%",
+  "paddingBottom": 20,
+  "height": "53.409%",
+  "scrollBarColor": "#000000",
+  "paddingTop": 20,
+  "shadow": false,
+  "click": "this.setComponentVisibility(this.HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F, false, 0, this.effect_18FC46C0_0291_1636_4178_D42A4CC7C980, 'hideEffect', false)",
+  "scrollBarMargin": 2,
+  "class": "HTMLText",
+  "scrollBarOpacity": 0.5,
+  "propagateClick": false,
+  "scrollBarWidth": 10,
+  "visible": false,
+  "top": "2.33%",
+  "id": "HTMLText_18CD9EDE_0291_17CA_4185_91CC7774B12F",
+  "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#ffffff;font-size:48px;font-family:Georgia, serif;\"><B>Parque Escult\u00f3rico Cementerio de Carretas</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#3399ff;font-size:28px;\"><B><I>PATRIMONIO REGIONAL</I></B></SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:12px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><p STYLE=\"margin:0; line-height:12px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:justify;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#ffffff;font-size:14px;font-family:Tahoma, Geneva, sans-serif;\">A 200 metros de altura de Putaendo se encuentra esta muestra que parti\u00f3 con la donaci\u00f3n de cuatro carretas y que hoy ya alberga, en una planicie de 16 hect\u00e1reas, a 51 esculturas, fruto de tres encuentros escult\u00f3ricos que se han realizado en el mismo lugar, con la participaci\u00f3n de artistas venidos desde diversas partes del mundo.</SPAN></SPAN></DIV></div>",
+  "data": {
+   "name": "El llano"
+  },
+  "minHeight": 1,
+  "scrollBarVisible": "rollOver",
+  "borderSize": 0,
+  "paddingLeft": 20,
+  "backgroundOpacity": 0,
+  "left": "0.93%",
+  "borderRadius": 0,
+  "minWidth": 1
+ },
+ {
   "backgroundColor": [
    "#000000"
   ],
@@ -6324,7 +6874,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "bottom": 0,
   "id": "veilPopupPanorama",
   "data": {
-   "name": "UIComponent28784"
+   "name": "UIComponent42989"
   },
   "minHeight": 0,
   "paddingLeft": 0,
@@ -6356,7 +6906,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "bottom": 0,
   "id": "zoomImagePopupPanorama",
   "data": {
-   "name": "ZoomImage28785"
+   "name": "ZoomImage42990"
   },
   "minHeight": 0,
   "paddingLeft": 0,
@@ -6417,7 +6967,7 @@ TDV.PlayerAPI.defineScript({ "definitions": [
   "borderColor": "#000000",
   "shadowColor": "#000000",
   "data": {
-   "name": "CloseButton28786"
+   "name": "CloseButton42991"
   },
   "backgroundOpacity": 0.3,
   "iconColor": "#000000",
@@ -6458,9 +7008,8 @@ TDV.PlayerAPI.defineScript({ "definitions": [
  },
  "borderSize": 0,
  "paddingLeft": 0,
- "desktopMipmappingEnabled": true,
  "vrPolyfillScale": 1,
- "mobileMipmappingEnabled": true,
+ "mobileMipmappingEnabled": false,
  "borderRadius": 0,
  "buttonToggleMute": "this.IconButton_572E734F_5CF3_836C_41CC_7625AC2A5A7D",
  "start": "this.syncPlaylists([this.ThumbnailList_CD3A365F_C284_BA7C_41C6_2F541D184CA9_playlist,this.ThumbnailList_178E9A94_02BF_1E5E_4161_F5F6F28B41B0_playlist,this.mainPlayList]); this.mainPlayList.set('selectedIndex', 0); if(!this.get('fullscreenAvailable')) { [this.IconButton_572D056F_5CF4_872B_41B8_80B17D78415E].forEach(function(component) { component.set('visible', false); }) }",
